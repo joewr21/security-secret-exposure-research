@@ -1,0 +1,77 @@
+group,type,count
+API키,카카오 REST/Admin 키,267
+API키,Google/Firebase API키(공개성),1789
+API키,OpenAI 키,158
+API키,Mapbox 토큰,149
+API키,OpenRouter 키,6
+웹훅,Discord 웹훅,29
+웹훅,Slack 웹훅,220
+설정약점,앱/서버 보안설정 약점,2474
+기타,개인키(PRIVATE KEY) 노출,78
+기타,GitHub 토큰 노출,21
+기타,Slack 토큰 노출,11
+기타,Mailgun API 키 노출,4
+기타,네이버 로그인/오픈API client_secret 노출,17
+기타,Sentry DSN 노출,77
+기타,Notion 통합 토큰 노출,17
+기타,Mailchimp API 키 노출,16
+기타,Google OAuth 클라이언트 시크릿 노출,58
+기타,Telegram 토큰 형식(오탐 — 문서 예시 placeholder),2
+기타,NCP API Gateway 시크릿 노출,15
+기타,Telegram 봇 토큰 노출,57
+기타,토스페이먼츠 시크릿 키(결제 전권) 노출,4
+기타,네이버클라우드(NCP) IAM 액세스/시크릿 키 노출,7
+기타,GitLab 토큰 노출,4
+기타,Anthropic API 키 노출,7
+기타,MongoDB 연결문자열(자격증명 포함) 노출,4
+기타,SendGrid API 키 노출,7
+기타,Shopify 액세스 토큰 노출,2
+기타,Replicate 토큰 노출,4
+기타,Twilio API 키 노출,1
+기타,솔라피/쿨SMS API 키 노출,3
+기타,HuggingFace 토큰 노출,9
+기타,네이버 클로바(CLOVA) API 키 노출,2
+기타,Groq API 키 노출,7
+기타,xAI(Grok) API 키 노출,1
+기타,Resend API 키 노출,2
+기타,Square 토큰 노출,1
+기타,Perplexity API 키 노출,1
+기타,Airtable 토큰 노출,10
+기타,npm 토큰 노출,1
+기타,PostHog personal 키 노출,5
+기타,Figma 토큰 노출,1
+기타,SDK 라이브러리 내부 키(제3자 libsr.so — 개발자 유출 아님),1
+기타,appsettings.json 노출,1
+기타,DB 백업(SQL) 노출,4
+기타,DB덤프(dump.sql) 노출,1
+기타,Node 프로젝트 파일(package.json) 노출,31
+기타,web.config(ASP.NET 설정) 노출,60
+기타,.firebaserc(Firebase 프로젝트) 노출,39
+기타,firebase.json 노출,25
+기타,.DS_Store(내부 파일목록) 노출,9
+기타,서버 스택 정보 노출(X-Powered-By),40
+기타,phpinfo 진단 페이지 노출,12
+기타,디렉터리 리스팅 노출,1
+기타,wp-config 백업(DB 비밀번호) 노출,2
+기타,워드프레스 로그인 아이디 노출,1
+기타,PHP 의존성 파일(composer) 노출,7
+기타,SVN(.svn) 소스 노출,33
+기타,Apache server-status 노출,3
+기타,secrets.json 노출,5
+기타,CORS 설정 오류(자격증명 + 모든 출처 허용),23
+기타,CORS 설정 오류(임의 출처 반사 + 자격증명 허용),5
+기타,.htpasswd(비밀번호 해시) 노출,2
+마스터키,GCP 서비스계정 개인키,141
+마스터키,개인키(RSA/PEM) 노출,84
+클라우드키,AWS 액세스키,85
+결제키,Stripe 키,15
+결제키,Razorpay 키,304
+백엔드공개,Supabase 공개(RLS off),88
+백엔드공개,Firestore 공개 DB,653
+백엔드공개,RTDB 공개 DB,195
+백엔드공개,Firebase Storage 공개,412
+백엔드공개,기타 오픈백엔드,7
+소스노출,소스맵 노출,338
+소스노출,.env/백업파일 노출,22
+소스노출,.git 저장소 노출,220
+TOTAL,all,8417
